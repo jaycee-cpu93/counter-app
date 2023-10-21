@@ -1,0 +1,86 @@
+/* Main counter */
+.counter {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+.counter-bg {
+  background-color: #0830e2;
+  padding: 30px;
+  border-radius: 1em;
+}
+.main-bg {
+  background-color: #ffff;
+  padding: 20px;
+  border-radius: 0.5em;
+  box-shadow: 10px 10px 5px 0px rgba(126, 143, 199, 0.75);
+}
+p {
+  text-align: center;
+  margin-top: 1em;
+  color: black;
+}
+.main-bg h1 {
+  font-size: 3rem;
+  font-family: monospace;
+  text-align: center;
+  margin-bottom: 1em;
+  background-color: transparent;
+}
+.icons {
+  margin-top: 2em;
+  display: flex;
+  gap: 0.5em;
+}
+.arrow {
+  font-size: 3rem;
+  background-color: #efefef;
+  padding: 10px;
+  color: black;
+}
+
+.rotate {
+  transform: rotateY(180deg);
+}
+/* not found */
+.not-found {
+  margin-top: 30vh;
+}
+.not-found h1 {
+  text-align: center;
+}
+/* error boundary test */
+.errorpagetest h1 {
+  margin-top: 2em;
+  text-align: center;
+}
+.errorbtn {
+  background-color: #f12307;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* error boundary */
+.error-container {
+  color: red;
+  text-align: center;
+}
+
+.error-container button {
+  background-color: #0074d9;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
