@@ -1,0 +1,4 @@
+- Vanilla CSS3 was used for the styles
+- React-router-dom was used for the page routing
+- pages which are MainCounter, error 404 and error boundary
+- Used react-icons for the icons
